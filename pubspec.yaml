@@ -1,0 +1,71 @@
+name: mobile_app
+description: "A new Flutter project."
+
+# Prevents accidental publishing to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Application version and build number
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+# Dependencies for your project
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Additional packages
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  flutter_svg: ^2.0.16
+  flutter_pdfview: ^1.3.4
+  firebase_core: ^3.8.1
+  firebase_analytics: ^11.3.6
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.5.1
+  syncfusion_flutter_pdfviewer: ^27.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  # Material design icons
+  uses-material-design: true
+
+  # Asset definitions
+  assets:
+    - Assets/Icons/
+    - Assets/Images/
+    - Assets/PDF/
+    - Assets/273.pdf
+    - Assets/584.pdf
+    - Assets/sample-pdf.pdf
+    - Assets/4.pdf
+    - Assets/6.pdf
+    - Assets/7.pdf
+    - Assets/8.pdf
+    - Assets/9.pdf
+
+  # Font definitions
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: Assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: Assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: Assets/fonts/Poppins-Medium.ttf
+          weight: 500
+
+
+  # If you have more fonts, you can define them similarly.
+  # Example:
+  # fonts:
+  #   - family: TrajanPro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
